@@ -48,7 +48,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.ImageAlign = System.Drawing.ContentAlignment.TopRight
-        Me.Label2.Location = New System.Drawing.Point(95, 59)
+        Me.Label2.Location = New System.Drawing.Point(95, 49)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(90, 30)
         Me.Label2.TabIndex = 1
@@ -58,7 +58,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(56, 99)
+        Me.Label3.Location = New System.Drawing.Point(56, 89)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(132, 13)
         Me.Label3.TabIndex = 2
@@ -68,7 +68,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.ImageAlign = System.Drawing.ContentAlignment.TopRight
-        Me.Label4.Location = New System.Drawing.Point(95, 132)
+        Me.Label4.Location = New System.Drawing.Point(95, 122)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(90, 30)
         Me.Label4.TabIndex = 3
@@ -84,28 +84,28 @@ Partial Class Form1
         '
         'txtMonth
         '
-        Me.txtMonth.Location = New System.Drawing.Point(194, 65)
+        Me.txtMonth.Location = New System.Drawing.Point(194, 55)
         Me.txtMonth.Name = "txtMonth"
         Me.txtMonth.Size = New System.Drawing.Size(148, 20)
         Me.txtMonth.TabIndex = 5
         '
         'txtDayOfMonth
         '
-        Me.txtDayOfMonth.Location = New System.Drawing.Point(194, 99)
+        Me.txtDayOfMonth.Location = New System.Drawing.Point(194, 89)
         Me.txtDayOfMonth.Name = "txtDayOfMonth"
         Me.txtDayOfMonth.Size = New System.Drawing.Size(148, 20)
         Me.txtDayOfMonth.TabIndex = 6
         '
         'txtYear
         '
-        Me.txtYear.Location = New System.Drawing.Point(194, 138)
+        Me.txtYear.Location = New System.Drawing.Point(194, 128)
         Me.txtYear.Name = "txtYear"
         Me.txtYear.Size = New System.Drawing.Size(148, 20)
         Me.txtYear.TabIndex = 7
         '
         'btnShowDate
         '
-        Me.btnShowDate.Location = New System.Drawing.Point(76, 225)
+        Me.btnShowDate.Location = New System.Drawing.Point(76, 216)
         Me.btnShowDate.Name = "btnShowDate"
         Me.btnShowDate.Size = New System.Drawing.Size(75, 23)
         Me.btnShowDate.TabIndex = 8
@@ -114,7 +114,7 @@ Partial Class Form1
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(194, 225)
+        Me.btnClear.Location = New System.Drawing.Point(194, 216)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(75, 23)
         Me.btnClear.TabIndex = 9
@@ -123,7 +123,7 @@ Partial Class Form1
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(319, 225)
+        Me.btnExit.Location = New System.Drawing.Point(319, 216)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 10
@@ -133,7 +133,7 @@ Partial Class Form1
         'lblDateString
         '
         Me.lblDateString.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblDateString.Location = New System.Drawing.Point(98, 174)
+        Me.lblDateString.Location = New System.Drawing.Point(98, 165)
         Me.lblDateString.Name = "lblDateString"
         Me.lblDateString.Size = New System.Drawing.Size(254, 23)
         Me.lblDateString.TabIndex = 11

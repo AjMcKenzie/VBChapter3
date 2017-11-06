@@ -5,6 +5,14 @@
     End Sub
 
     Private Sub btnShowDate_Click(sender As Object, e As EventArgs) Handles btnShowDate.Click
-        lblDateString = txtDayOfWeek.Text & ", " & txtMonth.Text & ", " & txtDayOfMonth.Text & ", " & txtYear.Text
+        lblDateString.Text = txtDayOfWeek.Text & ", " & txtMonth.Text & " " & txtDayOfMonth.Text & ", " & txtYear.Text
+    End Sub
+
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        txtDayOfWeek.Clear()
+        txtMonth.Clear()
+        txtDayOfMonth.Clear()
+        txtYear.Clear()
+        lblDateString.Text = String.Empty
     End Sub
 End Class
