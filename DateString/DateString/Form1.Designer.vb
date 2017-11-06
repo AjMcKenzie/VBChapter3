@@ -39,7 +39,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(56, 24)
+        Me.Label1.Location = New System.Drawing.Point(59, 16)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(129, 13)
         Me.Label1.TabIndex = 0
@@ -48,7 +48,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.ImageAlign = System.Drawing.ContentAlignment.TopRight
-        Me.Label2.Location = New System.Drawing.Point(95, 49)
+        Me.Label2.Location = New System.Drawing.Point(95, 39)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(90, 30)
         Me.Label2.TabIndex = 1
@@ -58,7 +58,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(56, 89)
+        Me.Label3.Location = New System.Drawing.Point(53, 82)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(132, 13)
         Me.Label3.TabIndex = 2
@@ -68,7 +68,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.ImageAlign = System.Drawing.ContentAlignment.TopRight
-        Me.Label4.Location = New System.Drawing.Point(95, 122)
+        Me.Label4.Location = New System.Drawing.Point(95, 112)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(90, 30)
         Me.Label4.TabIndex = 3
@@ -84,21 +84,21 @@ Partial Class Form1
         '
         'txtMonth
         '
-        Me.txtMonth.Location = New System.Drawing.Point(194, 55)
+        Me.txtMonth.Location = New System.Drawing.Point(194, 49)
         Me.txtMonth.Name = "txtMonth"
         Me.txtMonth.Size = New System.Drawing.Size(148, 20)
         Me.txtMonth.TabIndex = 5
         '
         'txtDayOfMonth
         '
-        Me.txtDayOfMonth.Location = New System.Drawing.Point(194, 89)
+        Me.txtDayOfMonth.Location = New System.Drawing.Point(194, 82)
         Me.txtDayOfMonth.Name = "txtDayOfMonth"
         Me.txtDayOfMonth.Size = New System.Drawing.Size(148, 20)
         Me.txtDayOfMonth.TabIndex = 6
         '
         'txtYear
         '
-        Me.txtYear.Location = New System.Drawing.Point(194, 128)
+        Me.txtYear.Location = New System.Drawing.Point(194, 118)
         Me.txtYear.Name = "txtYear"
         Me.txtYear.Size = New System.Drawing.Size(148, 20)
         Me.txtYear.TabIndex = 7

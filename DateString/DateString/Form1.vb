@@ -14,5 +14,7 @@
         txtDayOfMonth.Clear()
         txtYear.Clear()
         lblDateString.Text = String.Empty
+
+        txtDayOfWeek.Focus()
     End Sub
 End Class
