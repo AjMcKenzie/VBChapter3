@@ -51,13 +51,13 @@
     End Sub
 
     Private Sub btnMOD_Click(sender As Object, e As EventArgs) Handles btnMOD.Click
-        Dim dblResult As Double
+        Dim intResult As Integer
 
         lblOperation.Text = "MOD "
 
-        dblResult = CDbl(txtNumber1.Text) Mod CDbl(txtNumber2.Text)
+        intResult = CDbl(txtNumber1.Text) Mod CDbl(txtNumber2.Text)
 
-        lblResult.Text = CStr(dblResult)
+        lblResult.Text = CStr(intResult)
     End Sub
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
@@ -65,6 +65,8 @@
         txtNumber2.Clear()
         lblResult.Text = String.Empty
         lblOperation.Text = String.Empty
+
+        txtNumber1.Focus()
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click

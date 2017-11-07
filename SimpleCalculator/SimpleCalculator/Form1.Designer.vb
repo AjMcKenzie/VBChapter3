@@ -70,7 +70,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(12, 221)
+        Me.Label4.Location = New System.Drawing.Point(12, 229)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(37, 13)
         Me.Label4.TabIndex = 3
@@ -79,7 +79,7 @@ Partial Class Form1
         'lblResult
         '
         Me.lblResult.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblResult.Location = New System.Drawing.Point(83, 221)
+        Me.lblResult.Location = New System.Drawing.Point(83, 229)
         Me.lblResult.Name = "lblResult"
         Me.lblResult.Size = New System.Drawing.Size(138, 26)
         Me.lblResult.TabIndex = 4
@@ -175,7 +175,7 @@ Partial Class Form1
         '
         Me.lblOperation.AutoSize = True
         Me.lblOperation.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblOperation.Location = New System.Drawing.Point(126, 55)
+        Me.lblOperation.Location = New System.Drawing.Point(97, 56)
         Me.lblOperation.Name = "lblOperation"
         Me.lblOperation.Size = New System.Drawing.Size(0, 20)
         Me.lblOperation.TabIndex = 15
@@ -184,6 +184,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ControlDark
         Me.ClientSize = New System.Drawing.Size(246, 300)
         Me.Controls.Add(Me.lblOperation)
         Me.Controls.Add(Me.btnExit)
@@ -201,6 +202,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.Name = "Form1"
         Me.Text = "Simple Calculator"
         Me.ResumeLayout(False)
