@@ -61,6 +61,7 @@ Partial Class Form1
         '
         'lblSalary
         '
+        Me.lblSalary.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.lblSalary.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblSalary.Location = New System.Drawing.Point(121, 100)
         Me.lblSalary.Name = "lblSalary"
@@ -94,6 +95,7 @@ Partial Class Form1
         'lblStatus
         '
         Me.lblStatus.BackColor = System.Drawing.SystemColors.ButtonShadow
+        Me.lblStatus.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.lblStatus.Location = New System.Drawing.Point(0, 176)
         Me.lblStatus.Name = "lblStatus"
         Me.lblStatus.Size = New System.Drawing.Size(317, 13)
@@ -104,6 +106,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(317, 191)
         Me.Controls.Add(Me.lblStatus)
         Me.Controls.Add(Me.btnCalculate)
@@ -114,7 +117,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Salary Calculator"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
