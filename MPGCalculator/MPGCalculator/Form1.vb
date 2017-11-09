@@ -3,9 +3,15 @@
     Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
         Dim decMilesPerGallonTotal As Decimal
 
-        decMilesPerGallonTotal = (txtDrivenOnFullTank.Text) / (txtGallonsOfGas.Text)
+        Try
+            decMilesPerGallonTotal = (txtDrivenOnFullTank.Text) / (txtGallonsOfGas.Text)
 
-        lblMilesPerGallonTotal.Text = decMilesPerGallonTotal.ToString("n2")
+            lblMilesPerGallonTotal.Text = decMilesPerGallonTotal.ToString("n2")
+
+        Catch
+            lblStatus.Text = "Error: Be sure to enter nonzero " & "numeric values"
+
+        End Try
 
     End Sub
 

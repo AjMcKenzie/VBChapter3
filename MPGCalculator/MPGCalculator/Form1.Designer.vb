@@ -31,6 +31,7 @@ Partial Class Form1
         Me.btnCalculate = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
+        Me.lblStatus = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -110,11 +111,21 @@ Partial Class Form1
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
+        'lblStatus
+        '
+        Me.lblStatus.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblStatus.Location = New System.Drawing.Point(13, 246)
+        Me.lblStatus.Name = "lblStatus"
+        Me.lblStatus.Size = New System.Drawing.Size(292, 19)
+        Me.lblStatus.TabIndex = 7
+        Me.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(317, 271)
+        Me.Controls.Add(Me.lblStatus)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnCalculate)
@@ -139,5 +150,6 @@ Partial Class Form1
     Friend WithEvents btnCalculate As System.Windows.Forms.Button
     Friend WithEvents btnClear As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
+    Friend WithEvents lblStatus As System.Windows.Forms.Label
 
 End Class
