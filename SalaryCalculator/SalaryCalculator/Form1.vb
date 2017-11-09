@@ -12,7 +12,7 @@
 
             decSalary = decAnnualSalary / intPayPeriods
 
-            lblSalary.Text = decSalary.ToString("c")
+            lblStatus.Text = decSalary.ToString("c")
         Catch
             lblStatus.Text = "Error: Be sure to enter nonzero " & "numeric values"
         End Try

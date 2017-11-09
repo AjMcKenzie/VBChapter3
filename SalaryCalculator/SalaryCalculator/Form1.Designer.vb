@@ -96,9 +96,9 @@ Partial Class Form1
         '
         Me.lblStatus.BackColor = System.Drawing.SystemColors.ButtonShadow
         Me.lblStatus.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblStatus.Location = New System.Drawing.Point(0, 176)
+        Me.lblStatus.Location = New System.Drawing.Point(0, 174)
         Me.lblStatus.Name = "lblStatus"
-        Me.lblStatus.Size = New System.Drawing.Size(317, 13)
+        Me.lblStatus.Size = New System.Drawing.Size(317, 18)
         Me.lblStatus.TabIndex = 7
         Me.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
