@@ -6,16 +6,20 @@
         Dim decClassBT As Decimal
         Dim decClassCT As Decimal
 
-        decClassAT = (txtClassA.Text) * 15
-        decClassBT = (txtClassB.Text) * 12
-        decClassCT = (txtClassC.Text) * 9
-        decTotalR = (decClassAT) + (decClassBT) + (decClassCT)
+        Try
+            decClassAT = (txtClassA.Text) * 15
+            decClassBT = (txtClassB.Text) * 12
+            decClassCT = (txtClassC.Text) * 9
+            decTotalR = (decClassAT) + (decClassBT) + (decClassCT)
 
-        lblClassA.Text = decClassAT.ToString("c")
-        lblClassB.Text = decClassBT.ToString("c")
-        lblClassC.Text = decClassCT.ToString("c")
+            lblClassA.Text = decClassAT.ToString("c")
+            lblClassB.Text = decClassBT.ToString("c")
+            lblClassC.Text = decClassCT.ToString("c")
 
-        lblTotalRevenue.Text = decTotalR.ToString("c")
+            lblTotalRevenue.Text = decTotalR.ToString("c")
+        Catch
+            lblError.Text = "All input must be valid numeric values."
+        End Try
 
     End Sub
 
@@ -24,6 +28,10 @@
         txtClassB.Clear()
         txtClassC.Clear()
         lblTotalRevenue.Text = String.Empty
+        lblClassA.Text = String.Empty
+        lblClassB.Text = String.Empty
+        lblClassC.Text = String.Empty
+        lblError.Text = String.Empty
 
         txtClassA.Focus()
     End Sub
